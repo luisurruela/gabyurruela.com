@@ -35,6 +35,8 @@ h2 {font-size: 1.1em; font-weight: 300;}
 .btn-success:hover {background-color: rgb(255, 231, 208); color: rgb(109, 108, 108);}
 .btn-secondary {background-color: #D8E2EC; color: #7A7A7A; border: none; transition: .3s;}
 .btn-secondary:hover {background-color: rgb(207, 221, 235); color: rgb(109, 108, 108);}
+.btn-outline-success {border: 1px solid #c0a980; color: #c0a980;}
+.btn-outline-success:hover{background-color: #c0a980; color: #fafafa; border: 1px solid #c0a980;}
 
 .avatar {
     width: 220px;
@@ -55,6 +57,7 @@ h2 {font-size: 1.1em; font-weight: 300;}
 }
 
 #about p {
+    font-size: 1.1em;
     font-weight: 300;
     color: #948686;
 }
