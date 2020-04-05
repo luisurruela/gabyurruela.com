@@ -2,7 +2,7 @@ html {height: 100%;}
 
 body {
     background-color: #fafafa;
-    color: #252525;
+    color: #7A7A7A;
     font-size: 14px;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
@@ -21,8 +21,8 @@ h2 {font-size: 1.1em; font-weight: 300;}
 }
 
 #desktop-nav {
-    border-top: 1px solid #999999 !important;
-    border-bottom: 1px solid #999999 !important;
+    border-top: 1px solid #acacac !important;
+    border-bottom: 1px solid #acacac !important;
 }
 
 .bg-light {background-color: #fafafa !important;}
@@ -31,6 +31,10 @@ h2 {font-size: 1.1em; font-weight: 300;}
 .text-light-gold {color: #c0a980 !important}
 .text-gold {color: #a68a4b !important;}
 .bg-blue {background-color: #d1dee4 !important;}
+.btn-success {background-color: #FEEDDD; color: #7A7A7A; border: none; transition: .3s;}
+.btn-success:hover {background-color: rgb(255, 231, 208); color: rgb(109, 108, 108);}
+.btn-secondary {background-color: #D8E2EC; color: #7A7A7A; border: none; transition: .3s;}
+.btn-secondary:hover {background-color: rgb(207, 221, 235); color: rgb(109, 108, 108);}
 
 .avatar {
     width: 220px;
@@ -43,8 +47,8 @@ h2 {font-size: 1.1em; font-weight: 300;}
 }
 
 #about {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     /* padding-top: 100px;
     margin-top: -100px;
     padding-bottom: 100px; */
@@ -66,4 +70,14 @@ h2 {font-size: 1.1em; font-weight: 300;}
 #about h3 {
     font-size: 1.6em;
     font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    #about p {
+        font-size: 1em;
+    }
+
+    #about {
+        margin: 20px 0;
+    }
 }
