@@ -32,7 +32,7 @@ h2 {font-size: 1.1em; font-weight: 300;}
 .bg-light {background-color: #fafafa !important;}
 .bg-pink {background-color: #FCE8E9 !important;}
 .bg-gold {background-color: #c0a980 !important;}
-.text-light-gold {color: #c0a980 !important}
+.text-light-gold {color: #CBB897 !important}
 .text-gold {color: #a68a4b !important;}
 .bg-blue {background-color: #d1dee4 !important;}
 .btn-success {background-color: #FEEDDD; color: #7A7A7A; border: none; transition: .3s;}
@@ -52,12 +52,12 @@ h2 {font-size: 1.1em; font-weight: 300;}
     border-radius: 50%;
 }
 
-.navbar-toggler {
-    border-color: #c0a980 !important;
+.navbar a {
+    color: #7A7A7A;
 }
 
-#grid {
-    /*margin-top: -120px; */
+.navbar-toggler {
+    border-color: #c0a980 !important;
 }
 
 #about {
@@ -88,12 +88,24 @@ h2 {font-size: 1.1em; font-weight: 300;}
 }
 
 @media screen and (max-width: 768px) {
+    h1 {font-size: 1em;}
+    h2 {font-size: 0.9em;}
+    
     #about p {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     #about {
-        margin: 20px 0;
+        margin: 10px 0;
+    }
+
+    .navbar i {font-size: 0.7em;}
+    .navbar small {font-size: 65%;}
+
+    #social i {font-size: 1.3em;}
+
+    footer span {
+        font-size: 0.9em;
     }
 }
 
