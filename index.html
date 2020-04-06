@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="assets/css/glide.core.min.css">
-<link rel="stylesheet" href="assets/css/glide.theme.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Gaby Urruela | Fotógrafa Infantil, de Maternidad y Familias en Villahermosa, Tabasco</title>
 </head>
@@ -85,16 +83,29 @@
                 </nav>
             </div>
     </header>
-    <section id="slider" class="col-xl-8 m-auto pt-5 pl-0 pr-0">
-        <div class="glide">
-            <div data-glide-el="track" class="glide__track">
-                <ul class="glide__slides">
-                    <li class="glide__slide"><img src="assets/img/slider/session1.jpg" class="img-fluid"></li>
-                    <li class="glide__slide"><img src="assets/img/slider/session2.jpg" class="img-fluid"></li>
-                    <li class="glide__slide"><img src="assets/img/slider/session3.jpg" class="img-fluid"></li>
-                    <li class="glide__slide"><img src="assets/img/slider/session4.jpg" class="img-fluid"></li>
-                    <li class="glide__slide"><img src="assets/img/slider/session5.jpg" class="img-fluid"></li>
-                </ul>
+    <section id="slideshowWrapper" class="col-xl-8 m-auto pt-4 pb-3 pl-0 pr-0 carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#slideshowWrapper" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshowWrapper" data-slide-to="1"></li>
+            <li data-target="#slideshowWrapper" data-slide-to="2"></li>
+            <li data-target="#slideshowWrapper" data-slide-to="3"></li>
+            <li data-target="#slideshowWrapper" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/slider/session1.jpg" class="d-block w-100" alt="img1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/slider/session2.jpg" class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/slider/session3.jpg" class="d-block w-100" alt="img3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/slider/session4.jpg" class="d-block w-100" alt="img3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/slider/session5.jpg" class="d-block w-100" alt="img3">
             </div>
         </div>
     </section>
@@ -180,10 +191,9 @@
         <span>Gaby Urruela</span>
     </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="assets/js/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="assets/js/glide.min.js"></script>
 <script src="assets/js/lu-app.js"></script>
 </body>
 </html>
