@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', inicio);
 function inicio() {
 
     $('.carousel').carousel({
-        interval: 2500,
+        interval: 2000,
         pause: 'hover'
     })
     
