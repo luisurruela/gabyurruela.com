@@ -48,8 +48,8 @@ h2 {font-size: 1.1em; font-weight: 300;}
     border-radius: 50%;
 }
 
-.navbar-toggler svg {
-    fill: #c0a980;
+.navbar-toggler {
+    border-color: #c0a980 !important;
 }
 
 #grid {
