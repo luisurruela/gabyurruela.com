@@ -12,7 +12,7 @@ body {
 
 a {color: #a68a4b; transition: 0.3s;}
 a:hover {color: #bd9c50;}
-p {font-size: 1.2em;}
+p {font-size: 1em;}
 h1 {font-size: 1.4em; font-weight: 700;}
 h2 {font-size: 1.1em; font-weight: 300;}
 .text-primary{font-size: 2.2em; font-weight: 700; color: #7a7a7a !important;}
@@ -92,10 +92,6 @@ h2 {font-size: 1.1em; font-weight: 300;}
 @media screen and (max-width: 768px) {
     h1 {font-size: 1em;}
     h2 {font-size: 0.9em;}
-    
-    #about p {
-        font-size: 0.9em;
-    }
 
     #about {
         margin: 10px 0;
@@ -116,7 +112,12 @@ h2 {font-size: 1.1em; font-weight: 300;}
 }
 
 @media screen and (max-width: 767px) {
-    body {font-size: 0.8em;}
-    .text-primary{font-size: 2em;}
+    body {font-size: 13px;}
+    
+    #about p {
+        font-size: 13px;
+    }
+
+    .text-primary{font-size: 1.2em;}
     .text-secondary{font-size: 1.2em;}
 }
